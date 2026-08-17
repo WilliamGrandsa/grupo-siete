@@ -14,9 +14,8 @@ Este proyecto desarrolla un flujo analítico reproducible para consolidar datos 
 ## Estructura del Proyecto
 - `data/raw/`: Datos originales sin modificar
 - `data/processed/`: Datos procesados
-- `notebooks/`: Análisis exploratorio
-- `src/`: Código reutilizable
+- `notebooks/`: Código reutilizable
 
 ## Cómo ejecutar
 1. Abrir el notebook en Google Colab
-2. Ejecutar todas las celdas en orden
+2. Ejecutar todo el código en una sola celda, para evitar confusiones al correr celdas por separado
