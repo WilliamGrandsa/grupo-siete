@@ -16,6 +16,9 @@ Este proyecto desarrolla un flujo analítico reproducible para consolidar datos 
 - `data/processed/`: Datos procesados
 - `notebooks/`: Código reutilizable
 
+
+
 ## Cómo ejecutar
 1. Abrir el notebook en Google Colab
-2. Ejecutar todo el código en una sola celda, para evitar confusiones al correr celdas por separado
+2. Ejecutar todo el código en una sola celda, para evitar que se pierda el orden al correr celdas separadas
+
