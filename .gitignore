@@ -8,13 +8,7 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Datos (no versionar datos grandes o sensibles)
-data/raw/
-data/processed/
-*.csv
-*.xlsx
-
-# Archivos del sistema
+# Archivos de sistema
 .DS_Store
 Thumbs.db
 
@@ -22,3 +16,9 @@ Thumbs.db
 .env
 *.key
 *.pem
+
+# Logs
+*.log
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/

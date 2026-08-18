@@ -1,0 +1,22 @@
+{
+  "total_entregas": 300,
+  "total_estudiantes": 60,
+  "entregas_matriz": 150,
+  "entregas_extension": 150,
+  "entregas_sin_estudiante": 5,
+  "ids_huerfanos": [
+    "E555",
+    "E666",
+    "E777",
+    "E888",
+    "E999"
+  ],
+  "puntajes_nulos": 9,
+  "entregas_pendientes": 9,
+  "entregas_revision": 0,
+  "registros_con_nan_estudiante": 5,
+  "registros_con_nan_puntaje": 9,
+  "total_registros_finales": 300,
+  "columnas_finales": 14,
+  "fecha_procesamiento": "2026-08-16 20:18:56"
+}
