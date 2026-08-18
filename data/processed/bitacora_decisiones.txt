@@ -1,0 +1,20 @@
+
+BITACORA DE DECISIONES - TALLER 3
+=================================
+FECHA: 2026-08-18 14:33:23
+GRUPO 7
+
+DECISIONES DE LIMPIEZA:
+1. id_estudiante leido como str para conservar formato "E001"
+2. puntaje_obtenido convertido a float con pd.to_numeric
+3. na_values=['', 'NA', 'N/A'] para estandarizar nulos
+
+DECISIONES DE INTEGRACION:
+1. how='left' para conservar todas las entregas
+2. validate='many_to_one' para verificar unicidad en catalogo
+3. indicator=True para auditar huerfanos
+
+RESULTADOS:
+- Total entregas: 300
+- IDs huerfanos: 5
+- Puntajes nulos: 9
